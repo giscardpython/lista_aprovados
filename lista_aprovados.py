@@ -13,14 +13,14 @@ nota5 = []
 media = []
 i = 0
 
-while i < 2:
+while i < 30:
     # informa o nome da nova fruta 
     novo_aluno = str(input('\nInsira o nome do Aluno: ').upper())
-    nota1_aluno = float(input('\nInsira a nota 1 do Aluno: '))
-    nota2_aluno = float(input('\nInsira a nota 2 do Aluno: '))
-    nota3_aluno = float(input('\nInsira a nota 3 do Aluno: '))
-    nota4_aluno = float(input('\nInsira a nota 4 do Aluno: '))
-    nota5_aluno = float(input('\nInsira a nota 5 do Aluno: '))
+    nota1_aluno = float(input('\nInsira a nota 1 do Aluno (0 a 10): '))
+    nota2_aluno = float(input('\nInsira a nota 2 do Aluno (0 a 10): '))
+    nota3_aluno = float(input('\nInsira a nota 3 do Aluno (0 a 10): '))
+    nota4_aluno = float(input('\nInsira a nota 4 do Aluno (0 a 10): '))
+    nota5_aluno = float(input('\nInsira a nota 5 do Aluno (0 a 10): '))
     alunos.append(novo_aluno)
     nota1.append(nota1_aluno)
     nota2.append(nota2_aluno)
